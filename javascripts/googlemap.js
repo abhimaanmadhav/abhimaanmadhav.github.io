@@ -24,8 +24,8 @@ function initMap(){
 
 function calcRoute() {
     var request = {
-        origin: new google.maps.LatLng(12.3025598,76.6196739),
-        destination: $("#routeFrom").val(),
+        origin: $("#routeFrom").val(),
+        destination: new google.maps.LatLng(12.3025598,76.6196739),
         travelMode: google.maps.TravelMode[$("#routeMode").val()]
     };
     directionsService.route(request, function(response, status) {
