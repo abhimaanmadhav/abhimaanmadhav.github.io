@@ -3,7 +3,6 @@
 	$(document).ready(function() {
 		respond();
 		aboutButton();
-		instaFeed();
 		lightBox();
 		smoothScroll();
 	});
@@ -21,17 +20,7 @@
 		$('.leaves-container').height($('.gallery-title-container').height());
 	}
 
-	function instaFeed() {
-		var feed = new Instafeed({
-			get: 'tagged',
-			tagName: 'lexvienrose',
-			clientId: 'd037f1f338fc41dd9cdb2e196e2802ef',
-			limit: '40',
-			resolution: 'standard_resolution',
-			template: '<a href="{{link}}" class="instapics"><img src="{{image}}" /></a>'
-		});
-		feed.run();
-	}
+	
 
 	function aboutButton() {
 		$('.the-groom button, .the-bride button').click(function() {
