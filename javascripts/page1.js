@@ -16,9 +16,9 @@ var diffDays = diff / (1000 * 3600 * 24);
 //		console.log("secounds "+seconds);
 		
 
-        display.textContent = parseInt(diffDays) + " Days : " + parseInt(hours)+" Hours :"+parseInt(minutes)+" Mins:"+parseInt(seconds)+"  Sec's ";
+//        display.textContent = parseInt(diffDays) + " Days : " + parseInt(hours)+" Hours :"+parseInt(minutes)+" Mins:"+parseInt(seconds)+"  Sec's ";
 
-//       display.textContent = parseInt(diffDays) + ": " + parseInt(hours)+" :"+parseInt(minutes)+":"+parseInt(seconds)+" ";
+       display.textContent = parseInt(diffDays) + ": " + parseInt(hours)+" :"+parseInt(minutes)+":"+parseInt(seconds)+" ";
     }, 1000);
 }
 function marriageDay(){
