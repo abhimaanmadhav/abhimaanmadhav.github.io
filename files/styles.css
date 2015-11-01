@@ -11073,7 +11073,7 @@ h2 {
 
 .month {
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 30px;
 }
 
 
@@ -11204,7 +11204,7 @@ img {
 /* line 72, ../sass/partials/_layout.scss */
 
 .hero-title-image {
-	width: 45%;
+	width: 100%;
 	height: 500px;
 	font-family: cursive;
 	font-size: 45px;
@@ -11220,48 +11220,6 @@ img {
 	
 }
 
-@media (max-width: 1024px) {
-	/* line 72, ../sass/partials/_layout.scss */
-	.hero-title-image {
-		right: 10%;
-	}
-}
-
-@media (max-width: 890px) {
-	/* line 72, ../sass/partials/_layout.scss */
-	.hero-title-image {
-		right: 5%;
-	}
-}
-
-@media (max-width: 767px) {
-	/* line 72, ../sass/partials/_layout.scss */
-	.hero-title-image {
-		position: absolute;
-		top: 47%;
-		left: 50%;
-		right: auto;
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-ms-transform: translateX(-50%) translateY(-50%);
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-		width: 315px;
-		height: 440px;
-		display: block;
-	}
-}
-
-@media (max-width: 767px) {
-	/* line 103, ../sass/partials/_layout.scss */
-	.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background-color: rgba(50, 46, 70, 0.5);
-	}
-}
 
 
 /* ------- Intro ------ */
@@ -11310,7 +11268,7 @@ section.wedding-info {
 	background-image: url(../images/wedding_day_back.jpg);
 	position: relative;
 	z-index: 4;
-	padding-top: 300px;
+	padding-top: 8%;
 	padding-bottom: 225px;
 	/*copy paste*/
 	-moz-background-size: cover;
@@ -11424,14 +11382,15 @@ section.wedding-info .floral-bottom {
 
 .wedding-info-title {
 	text-align: center;
-	margin-bottom: 50px;
+	
 }
 
 
 /* line 210, ../sass/partials/_layout.scss */
 
 .wedding-info-title h2 {
-	margin-top: -50px;
+	
+	font-size: 50px;
 }
 
 @media (max-width: 768px) {
@@ -11445,7 +11404,7 @@ section.wedding-info .floral-bottom {
 /* line 219, ../sass/partials/_layout.scss */
 
 #wedding-title {
-	width: 450px;
+	width: 550px;
 }
 
 @media (max-width: 1024px) {
@@ -11475,7 +11434,7 @@ section.wedding-info .floral-bottom {
 
 .wedding-info-content .ceremony {
 	text-align: right;
-	border-right: solid 1px #6c6d70;
+	border-right: solid 2px #ffffff;
 	padding-right: 45px;
 }
 
@@ -11494,6 +11453,7 @@ section.wedding-info .floral-bottom {
 
 .wedding-info-content .lunch {
 	padding-left: 45px;
+	font-size: 25px; 
 }
 
 @media (max-width: 568px) {
@@ -11670,7 +11630,7 @@ section.instagram-feed {
 /* line 364, ../sass/partials/_layout.scss */
 
 .gallery-title-container {
-	padding-top: 200px;
+	padding-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -12737,4 +12697,39 @@ section.find-us {
 }
 .h2{
 	color: floralwhite;
+	
+}
+.wedding-address{
+	font-size: 30px;
+	font-family: cursive;
+	color: black;
+	padding-left: 30px;
+	text-align: center;	
+}
+#timer {
+		text-align: left;
+	}
+@media (max-width: 1024px) {
+	/* line 72, ../sass/partials/_layout.scss */
+	#timer {
+		text-align: left;
+		; 
+		
+	}
+}
+
+@media (max-width: 890px) {
+	/* line 72, ../sass/partials/_layout.scss */
+	#timer{
+		text-align: left;
+	}
+}
+
+@media (max-width: 767px) {
+	/* line 72, ../sass/partials/_layout.scss */
+	.#timer {
+		text-align: left;
+		
+	}
+}
 }

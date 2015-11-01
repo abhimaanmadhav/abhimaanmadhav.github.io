@@ -12,8 +12,8 @@
 	<link href="./files/styles.css" rel="stylesheet" type="text/css">
 	<link href="./files/lightbox.css" rel="stylesheet" type="text/css">
 
-	
-	
+
+
 </head>
 
 
@@ -56,7 +56,8 @@
 			<div class="overlay"></div>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="hero-title-image"> <span id="timer"></span></div>
+					
+					<div class="hero-title-image col-xs-3"> <span id="timer"></span></div></div>
 				</div>
 				<!-- .row -->
 			</div>
@@ -69,18 +70,19 @@
 
 			<section id="wedding-info" class="wedding-info">
 				<!--				<img src="./files/floral-top.png" alt="floral" class="floral-top">-->
+				<div class="wedding-info-title row">
+					<img src="./files/wedding-title.png" id="wedding-title" alt="Our Story">
+					<h2>14<sup>th</sup><span class="month">December </span>2015</h2>
+				</div>
 				<div class="container">
-					<div class="wedding-info-title row">
-						<img src="./files/wedding-title.png" id="wedding-title" alt="Our Story">
-						<h2>14<sup>th</sup><span class="month">December</span> 2015</h2>
-					</div>
+
 					<!-- .wedding-info-title .row -->
 
 					<div class="wedding-info-content row">
 						<div class="col-xs-6 ceremony">
 							<h2>Reception</h2>
 							<p style="
-    color: floralwhite;">13<sup>th</sup> Dec 2015
+    color: floralwhite; font-size:24px;">13<sup>th</sup> Dec 2015
 								<br>7:00 pm onwards</p>
 
 						</div>
@@ -88,21 +90,26 @@
 						<div class="col-xs-6 lunch">
 							<h2>Knot tying</h2>
 							<p style="
-    color: floralwhite;">14<sup>th</sup> Dec 2015
+    color: floralwhite; font-size:24px;">14<sup>th</sup> Dec 2015
 								<br>09:10 am</p>
 
 
 						</div>
 						<!-- .col-xs-6 .lunch -->
-						
+
 					</div>
 					<!-- .wedding-info-content .row -->
-					<div class="row"><div class="col-xs-4 lunch"></div><div class="col-xs-8 lunch">Samrat Kalyana Mantapa  
-	<br/></br/>Kuvempu Nagara, Mysuru, Karnataka 570023</div></div>
+					<div class="row">
+						
+						<div class="col-xs-12 lunch">
+							<h3 class="wedding-address">Samrat Kalyana Mantapa
+							<br/>
+							</br/>Kuvempu Nagara, Mysuru,<br/><br/> Karnataka 570023</h3></div>
+					</div>
 
 				</div>
 				<!-- .container -->
-				<img src="./files/floral-bottom.png" alt="floral" class="floral-bottom">
+				<!--				<img src="./files/floral-bottom.png" alt="floral" class="floral-bottom">-->
 			</section>
 			<!-- .wedding-info -->
 
@@ -142,7 +149,7 @@
 						<!-- Nav Tabs -->
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#pre-wed" aria-controls="pre-wed" role="tab" data-toggle="tab">#Pre-Wedding</a></li>
-							<li role="presentation" ><a href="#freindship" aria-controls="freindship" role="tab" data-toggle="tab">#Friendship</a></li>
+							<li role="presentation"><a href="#freindship" aria-controls="freindship" role="tab" data-toggle="tab">#Friendship</a></li>
 						</ul>
 						<!-- .nav .nav-tabs -->
 
@@ -179,7 +186,7 @@
 									</li>
 								</ul>
 							</div>
-<div role="tabpanel" id="freindship" class="tab-pane fade in tab-content-each">
+							<div role="tabpanel" id="freindship" class="tab-pane fade in tab-content-each">
 								<ul class="pre-wed-list">
 									<li>
 										<a href="../images/freind_5.jpg" data-lightbox="pre-wed"><img src="./images/freind_5.jpg" alt="Alex and Vivi"></a>
@@ -199,7 +206,7 @@
 									<li>
 										<a href="./images/freinds_8.jpg" data-lightbox="pre-wed"><img src="./images/freinds_8.jpg" alt="Alex and Vivi"></a>
 									</li>
-									
+
 								</ul>
 							</div>
 						</div>
@@ -213,31 +220,23 @@
 			<!-- .instagram-feed -->
 
 			<section id="about-us" class="about-us">
-<div class="container-fluid">
-	<div class="col-md-6 "><img src="images/about-us-wedding.jpg"/></div>
-						<div class="col-md-6" ><img src="images/sup_family.jpg"
-				</div>
+				<div class="container-fluid">
+					<div class="col-md-6 "><img src="images/about-us-wedding.jpg" class="img-responsive" /></div>
+					<div class="col-md-6"><img src="images/sup_family.jpg" </div>
 			</section>
 			<!-- .about-us -->
 			<section id="find-us" class="find-us">
-
-
-
-
 				<div class="container-fluid">
-
 					<div class="row">
 						<div class="col-md-3"></div>
-						<div class="col-md-4" >
+						<div class="col-md-4">
 							<div class="row" style="margin-top: 115px;">
-								
 							</div>
-
 							<div class="row">
 								<div class="col-md-4"></div>
-								<div class="col-md-7" id="directions"style="margin-Right: 20px;"></div>
+								<div class="col-md-7" id="directions" style="margin-Right: 20px;"></div>
 							</div>
-							
+
 						</div>
 
 						<div class="col-md-5">
@@ -277,26 +276,28 @@
 
 				</div>
 			</section>
-		</div>
-	</div>
-	<!-- .content-container -->
+			</div>
+			</div>
+			<!-- .content-container -->
 
 
 
 
-	<script src="./javascripts/jquery.js"></script>
-	<script src="./javascripts/bootstrap.min.js"></script>
-	<script src="./javascripts/lightbox.min.js"></script>
-	<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
-	<div id="lightbox" class="lightbox" style="display: none;"></div>
-
-	<script src="./javascripts/main.js"></script>
-	<script src="./javascripts/page1.js"></script>
-	<script src="javascripts/googlemap.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6thgIl0Cqg-WTaCBe6vY1XXwzasMssDw&callback=initMap"/>
-		<script type = "text/javascript" >
-			document.getElementById("typeform").contentWindow.focus()
-	</script>
+			<script src="./javascripts/jquery.js"></script>
+			<script src="./javascripts/bootstrap.min.js"></script>
+			<script src="./javascripts/page1.js"></script>
+			<script>
+				startTimer();
+			</script>
+			<script src="javascripts/googlemap.js"></script>
+			<script src="./javascripts/lightbox.min.js"></script>
+			<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+			<div id="lightbox" class="lightbox" style="display: none;"></div>
+			<script src="./javascripts/main.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6thgIl0Cqg-WTaCBe6vY1XXwzasMssDw&callback=initMap" />
+			<script type="text/javascript">
+				document.getElementById("typeform").contentWindow.focus()
+			</script>
 
 
 </body>
