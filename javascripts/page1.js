@@ -32,7 +32,7 @@ $('#recpDetail').addClass('active');
 $('#wedding').removeClass('active');
 }
 
-window.onload = function () {
+(.body).onload = function () {
         display = document.querySelector('#timer');
     startTimer(display);
 

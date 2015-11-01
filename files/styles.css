@@ -11466,7 +11466,8 @@ section.wedding-info .floral-bottom {
 /* line 231, ../sass/partials/_layout.scss */
 
 .wedding-info-content {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	color: floralwhite;
 }
 
 
@@ -11779,7 +11780,6 @@ section.instagram-feed {
 
 section.about-us {
 	position: relative;
-	background-image: url(../images/about-us-wedding.jpg);
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	-webkit-background-size: 100%;
@@ -12625,7 +12625,6 @@ footer a:focus {
 }
 
 section.about-us {
-	background-image: url(../images/about-us-wedding.jpg);
 	position: relative;
 	z-index: 4;
 /*
