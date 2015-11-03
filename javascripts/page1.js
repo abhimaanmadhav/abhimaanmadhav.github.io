@@ -22,16 +22,16 @@ function startTimer() {
 	}, 1000);
 }
 
-function marriageDay() {
-	$('#recpDetail').addClass('active');
-	$('#wedding').removeClass('active');
-	
-	
-}
-
-function reception() {
-	console.log("onclick")
-
-	$('#wedding').addClass('active');
-	$('#recpDetail').removeClass('active');
-}
+//function marriageDay() {
+//	$('#recpDetail').addClass('active');
+//	$('#wedding').removeClass('active');
+//	
+//	
+//}
+//
+//function reception() {
+//	console.log("onclick")
+//
+//	$('#wedding').addClass('active');
+//	$('#recpDetail').removeClass('active');
+//}
