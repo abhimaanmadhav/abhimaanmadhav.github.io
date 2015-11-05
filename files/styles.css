@@ -11842,37 +11842,7 @@ section.about-us.toTop {
 
 /* line 487, ../sass/partials/_layout.scss */
 
-.the-groom button,
-.the-bride button {
-	position: absolute;
-	bottom: 6%;
-}
 
-@media (max-width: 767px) {
-	/* line 493, ../sass/partials/_layout.scss */
-	.the-groom {
-		background-image: url(../images/about-us-him.jpg);
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
-}
-
-@media (max-width: 767px) {
-	/* line 504, ../sass/partials/_layout.scss */
-	.the-bride {
-		background-image: url(../images/about-us-her.jpg);
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-}
 
 
 /* line 515, ../sass/partials/_layout.scss */
@@ -12406,6 +12376,7 @@ footer a:focus {
 
 .instagram-feed .nav-tabs li:first-child {
 	border-right: solid 1px #ccc;
+	
 }
 
 
@@ -12415,6 +12386,7 @@ footer a:focus {
 	background-color: transparent;
 	cursor: pointer;
 	border: none;
+	color: blue;
 }
 
 
@@ -12680,7 +12652,10 @@ section.find-us {
 .adp table {
 	color: rgba(255, 255, 255, 1);
 	background-color: darkseagreen;
-	border: 1px solid white;
+	
+}
+.adp-step, .adp-substep{
+	border-top: 1px solid #ffffff;
 }
 
 #directions {
@@ -12732,23 +12707,49 @@ section.find-us {
 	.#timer {
 		text-align: left;
 	}
-	.form-control{
+	.form-control {
 		width: 30%;
 	}
-	
 }
-.destination{
+
+.destination {
 	font-family: cursive;
 	font-size: 20px;
 }
+
 tr {
- color: black;
-    font-family: cursive;
+	color: black;
+	font-family: cursive;
 	font-size: 15px;
 }
-.adp-summary{
+
+.adp-summary {
 	font-family: cursive;
 	font-size: 16px;
 	color: black;
 	font-weight: bolder;
+}
+
+.leaf90minus{
+	transform: rotate(-90deg);
+}
+
+.leaf90{
+	transform: rotate(90deg);
+}
+
+.leaf45{
+	transform: rotate(45deg);
+}
+.leaf45minus{
+	transform: rotate(-45deg);
+}
+.leaf70minus{
+	transform: rotate(-70deg);
+}
+//mozilla bug fix
+#content browser {
+ margin-right: -14px !important;
+ overflow-y: scroll;
+ overflow-x: hidden;
 }
