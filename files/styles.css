@@ -11181,7 +11181,7 @@ img {
 @media (max-width: 767px) {
 	/* line 48, ../sass/partials/_layout.scss */
 	.hero {
-/*		background-attachment: scroll;*/
+		/*		background-attachment: scroll;*/
 	}
 }
 
@@ -11204,27 +11204,42 @@ img {
 /* line 72, ../sass/partials/_layout.scss */
 
 .hero-title-image {
-
 	font-family: cursive;
-	font-size: 30px;
+font-size: 2em;
 	color: white;
 	padding-left: 5%;
-	
 }
 
+@media (max-width: 480px) {
+	.hero-title-image {
+font-size: 0.8em;
+		padding-left: 1%
+	}
+}
+@media (max-width: 640px) {
+	.hero-title-image {
+/*		font-size: 14px;*/
+		font-size: 0.8em;
+		padding-left: 1%
+	}
+}
 @media (max-width: 992px) {
 	/* line 118, ../sass/partials/_layout.scss */
 	.hero-title-image {
-		font-size: 23px;
+font-size: 1.5em;
+		padding-left: 1.5%
 	}
 }
 
 @media (max-width: 767px) {
 	/* line 118, ../sass/partials/_layout.scss */
 	.hero-title-image {
-		font-size: 17px;
+		font-size: 1.1em;
+		padding-left: 1.5%
 	}
 }
+
+
 /* ------- Intro ------ */
 
 
@@ -11848,8 +11863,6 @@ section.about-us.toTop {
 /* line 487, ../sass/partials/_layout.scss */
 
 
-
-
 /* line 515, ../sass/partials/_layout.scss */
 
 .the-groom button:hover,
@@ -12381,7 +12394,6 @@ footer a:focus {
 
 .instagram-feed .nav-tabs li:first-child {
 	border-right: solid 1px #ccc;
-	
 }
 
 
@@ -12657,9 +12669,10 @@ section.find-us {
 .adp table {
 	color: rgba(255, 255, 255, 1);
 	background-color: darkseagreen;
-	
 }
-.adp-step, .adp-substep{
+
+.adp-step,
+.adp-substep {
 	border-top: 1px solid #ffffff;
 }
 
@@ -12735,26 +12748,33 @@ tr {
 	font-weight: bolder;
 }
 
-.leaf90minus{
+.leaf90minus {
 	transform: rotate(-90deg);
 }
 
-.leaf90{
+.leaf90 {
 	transform: rotate(90deg);
 }
 
-.leaf45{
+.leaf45 {
 	transform: rotate(45deg);
 }
-.leaf45minus{
+
+.leaf45minus {
 	transform: rotate(-45deg);
 }
-.leaf70minus{
+
+.leaf70minus {
 	transform: rotate(-70deg);
 }
+
 //mozilla bug fix
 #content browser {
- margin-right: -14px !important;
- overflow-y: scroll;
- overflow-x: hidden;
+	margin-right: -14px !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.about{
+	background-image: url(../images/about-us-wedding.jpg);
+	background-size: cover;
 }
