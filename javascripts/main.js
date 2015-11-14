@@ -63,4 +63,12 @@ $(window).scroll(function () {
 	else sticky.removeClass('fixed');
 
 });
+	$(window).on("orientationchange",function(){
+ event.stopPropagation();
+}); 
+	$('#main-nav ul li a').on('click',function(){
+	$('#main-nav').removeClass('in');
+	
+});
+
 }(jQuery));
