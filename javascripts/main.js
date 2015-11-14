@@ -58,7 +58,7 @@ var stickyOffset = $('.sticky').offset().top;
 $(window).scroll(function () {
 	var sticky = $('.sticky'),
 		scroll = $(window).scrollTop() + $('#nav-bar').height() + sticky.height() + 110;
-	console.log("offset " + stickyOffset + " scroll " + scroll);
+	
 	if (scroll >= stickyOffset) sticky.addClass('fixed');
 	else sticky.removeClass('fixed');
 
