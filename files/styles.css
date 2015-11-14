@@ -11148,7 +11148,8 @@ body {
 section:not(.hero) {
 	position: relative;
 	z-index: 2;
-	padding: 50px 0;
+/*	padding: 50px 0;*/
+	background-color: #aaaaaa;
 }
 
 
@@ -11823,24 +11824,9 @@ section.about-us.toTop {
 
 /* line 465, ../sass/partials/_layout.scss */
 
-.about-us .container {
-	height: 750px;
-}
 
-@media (max-width: 767px) {
-	/* line 465, ../sass/partials/_layout.scss */
-	.about-us .container {
-		height: 468px;
-	}
-}
 
-@media (max-width: 767px) {
-	/* line 465, ../sass/partials/_layout.scss */
-	.about-us .container {
-		padding-left: 0;
-		padding-right: 0;
-	}
-}
+
 
 
 /* line 478, ../sass/partials/_layout.scss */
@@ -12584,7 +12570,7 @@ section.about-us {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
-	min-height: 750px;
+/*	min-height: 750px;*/
 	overflow: visible;
 	background-attachment: scroll;
 	position: relative;
@@ -12774,7 +12760,27 @@ tr {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+/*
+@media (min-width: 768px) {
+	.tab-content , .tab-pane{
+     display: block;
+	visibility: visible;
+    
+	}
+}
+*/
 .about{
 	background-image: url(../images/about-us-wedding.jpg);
 	background-size: cover;
 }
+.sticky { background-color: blue;
+	 border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+}
+
+.fixed {
+  position: fixed;
+	text-align: center;
+  top:15%; left:35%;
+  width: inherit; }

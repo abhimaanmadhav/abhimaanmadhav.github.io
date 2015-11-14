@@ -19,7 +19,7 @@
 
 <body data-spy="scroll" data-target="#main-nav">
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav id="nav-bar"class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
@@ -109,7 +109,7 @@
 				<div class="row">
 
 					<!-- Nav Tabs -->
-					<ul class="nav-tabs" role="tablist">
+					<ul class="nav-tabs sticky" role="tablist">
 						<li role="presentation" class="active"><a href="#pre-wed" aria-controls="pre-wed" role="tab" data-toggle="tab" aria-expanded="true">#Pre-Wedding</a></li>
 						<li role="presentation"><a href="#freindship" aria-controls="freindship" role="tab" data-toggle="tab">#Friendship</a></li>
 					</ul>
@@ -225,13 +225,13 @@
 		</section>
 		<section id="about-us" class="about-us">
 			<div class="container">
-				<img src="images/about-us-wedding.jpg" class="about"/>
-
+				<img src="images/sup_family.jpg" class="about"/>
+<img src="images/abhi-family.jpg" class="about"/>
 		</section>
 		<!-- .about-us -->
 		<section id="find-us" class="find-us">
 			<div class="container-fluid">
-				<div class="row" style="margin-left:20px">
+				<div class="row" style="margin-left:1%">
 
 					<div class="col-md-5">
 						<div class="row" style="margin-top: 40px;">
@@ -321,8 +321,16 @@
 		<script src="./javascripts/jquery.js"></script>
 		<script src="./javascripts/bootstrap.min.js"></script>
 		<script src="./javascripts/timer.js"></script>
+		<script src="./javascripts/main.js"></script>
 		<script>
 			startTimer();
+			 var width = $(window).width();
+			 if(width <=  900){
+       $('#freindship').addClass('active');
+   }
+   else{
+       $('#freindship').removeClass('active').;
+   }
 		</script>
 		<script src="javascripts/googlemap.js"></script>
 		<script src="./javascripts/lightbox.min.js"></script>
@@ -330,7 +338,7 @@
 			<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
 			<div id="lightbox" class="lightbox" style="display: none;"></div>
 -->
-		<script src="./javascripts/main.js"></script>
+		
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6thgIl0Cqg-WTaCBe6vY1XXwzasMssDw&callback=initMap" />
 		<script type="text/javascript">
 			document.getElementById("typeform").contentWindow.focus()
