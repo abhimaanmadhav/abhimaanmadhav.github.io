@@ -55,16 +55,16 @@ function smoothScroll() {
 		}
 	});
 }
-var stickyOffset = $('.sticky').offset().top;
-
-$(window).scroll(function () {
-	var sticky = $('.sticky'),
-		scroll = $(window).scrollTop() + $('#nav-bar').height() + sticky.height() + 110;
-	
-	if (scroll >= stickyOffset) sticky.addClass('fixed');
-	else sticky.removeClass('fixed');
-
-});
+//var stickyOffset = $('.sticky').offset().top;
+//
+//$(window).scroll(function () {
+//	var sticky = $('.sticky'),
+//		scroll = $(window).scrollTop() + $('#nav-bar').height() + sticky.height() + 110;
+//	
+//	if (scroll >= stickyOffset) sticky.addClass('fixed');
+//	else sticky.removeClass('fixed');
+//
+//});
 	$(window).on("orientationchange",function(){
  event.stopPropagation();
 }); 
