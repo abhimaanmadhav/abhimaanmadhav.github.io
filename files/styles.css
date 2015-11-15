@@ -11064,7 +11064,7 @@ html {
 /* line 17, ../sass/partials/_typography.scss */
 
 h2 {
-	font-family: "Didot";
+	font-family: "Gotham";
 	font-size: 30px;
 }
 
@@ -11177,6 +11177,7 @@ img {
 	overflow: hidden;
 	background-attachment: fixed;
 	position: relative;
+	z-index: 7;
 }
 
 @media (max-width: 767px) {
@@ -11653,7 +11654,7 @@ section.instagram-feed {
 	padding-top: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 568px) {
 	/* line 364, ../sass/partials/_layout.scss */
 	.gallery-title-container {
 		float: none;
@@ -12878,4 +12879,59 @@ footer {
 	padding-bottom: 1%;
 	padding-top: 1%;
 	text-align: left;
+}
+
+
+/*ribbon*/
+
+@media (max-width:767px) {
+	.ribbon {
+		font-size: 16px !important;
+		/* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+		position: fixed;
+		top: 15%;
+		height: 3em;
+		width: 10em;
+		float: right;
+	right: 0;
+		z-index: 186;
+		background: red;
+		color: #fff;
+		padding: 1em 1em;
+		/* Adjust to suit */
+		/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+	}
+	.ribbon:before {
+		content: "";
+		position: absolute;
+		display: block;
+		bottom: 0em;
+		border: 1.5em solid red;
+		z-index: 186;
+		left: -2em;
+	
+		border-right-width: 1.5em;
+		border-left-color: transparent;
+	}
+	.ribbon .ribbon-content:before {
+		/*
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #804f7c transparent transparent transparent;
+	bottom: -1em;
+*/
+		content: ' ';
+		position: absolute;
+		width: 0;
+		height: 0;
+		right: -2px;
+		top: 0px;
+		border-color: transparent #000 transparent transparent;
+	}
+	.ribbon .ribbon-content:before {
+		right: 0;
+		border-width: 1em 1em 0 0;
+	}
 }

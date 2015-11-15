@@ -8,6 +8,7 @@
 
 		$(window).resize(function () {
 			respond();
+			console.log($(window).width())
 		});
 
 		$(document).load(function () {
@@ -19,7 +20,7 @@
 			$('.leaves-container').height($('.gallery-title-container').height());
 			var width = $(window).width();
 			
-			if (width <= 900) {
+			if (width <= 568) {
 				$('#freindship').addClass('active');
 			} else {
 				$('#freindship').removeClass('active');
