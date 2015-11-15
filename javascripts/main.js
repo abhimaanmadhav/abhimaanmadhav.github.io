@@ -44,9 +44,11 @@ function smoothScroll() {
 
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			console.log(target);
+			console.log(target.offset().top);
 			if (target.length) {
 				$('html,body').animate({
-					scrollTop: target.offset().top
+					scrollTop: target.offset().top-$('#nav-bar').height()
 				}, 1000);
 				return false;
 			}

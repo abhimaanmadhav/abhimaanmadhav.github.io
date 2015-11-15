@@ -16,7 +16,7 @@ function initMap(){
     $("#routeGo").on("click", function() { calcRoute(); });
     $("#routeClear").on("click", function() { directionsDisplay.setDirections({ routes: [] }); });
     directionsDisplay.setMap(map);
-    
+	
 $('#routeFrom').keydown(function (event) {
 			if (event.keyCode == 13) {
 				calcRoute();
