@@ -12894,7 +12894,7 @@ footer {
 		width: 10em;
 		float: right;
 	right: 0;
-		z-index: 186;
+		z-index: 5;
 		background: red;
 		color: #fff;
 		padding: 1em 1em;
@@ -12907,7 +12907,7 @@ footer {
 		display: block;
 		bottom: 0em;
 		border: 1.5em solid red;
-		z-index: 186;
+		z-index: 5;
 		left: -2em;
 	
 		border-right-width: 1.5em;
