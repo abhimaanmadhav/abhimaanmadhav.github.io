@@ -11148,7 +11148,7 @@ body {
 
 section:not(.hero) {
 	position: relative;
-	z-index: 2;
+	z-index: 15;
 	/*	padding: 50px 0;*/
 	background-color: #aaaaaa;
 }
@@ -11176,9 +11176,8 @@ img {
 	background-position: top center;
 	min-height: 568px;
 	overflow: hidden;
-	background-attachment: fixed;
-	position: relative;
-	z-index: 7;
+	position: static;
+	z-index: 3;
 }
 
 @media (max-width: 767px) {
@@ -11290,7 +11289,7 @@ section.intro {
 section.wedding-info {
 	background-image: url(../images/wedding_day_back.jpg);
 	position: relative;
-	z-index: 4;
+	z-index: 5;
 	padding-top: 8%;
 	padding-bottom: 225px;
 	/*copy paste*/
@@ -11770,9 +11769,11 @@ section.about-us {
 	-o-background-size: 100%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
-	background-image: url(../images/intro-bg.jpg);
+	background-image: url(http://slodive.com/wp-content/uploads/2012/09/plain-backgrounds/light-blue-background.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
+	background-attachment: fixed;
+	z-index: 10;
 	-moz-transition: background-position 0.5s ease-in-out;
 	-o-transition: background-position 0.5s ease-in-out;
 	-webkit-transition: background-position 0.5s ease-in-out;
@@ -12620,6 +12621,7 @@ section.find-us {
 	background-position: top center;
 	padding-bottom: 3%;
 	position: relative;
+	z-index: 10;
 }
 
 @media (max-width: 1200px) {
@@ -12898,11 +12900,11 @@ footer {
 		position: fixed;
 		top: 15%;
 		height: 3em;
-		width: 10em;
+		width: auto;
 		visibility:visible;
 		float: right;
 	right: 0;
-		z-index: 5;
+		z-index: 15;
 		background: red;
 		color: #fff;
 		padding: 1em 1em;
