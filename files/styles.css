@@ -16,6 +16,7 @@ html {
 
 body {
 	margin: 0;
+	
 }
 
 
@@ -11762,11 +11763,14 @@ section.instagram-feed {
 /* line 434, ../sass/partials/_layout.scss */
 
 section.about-us {
-	position: relative;
+	
+	padding-bottom: 10%;
+	padding-top: 10%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	background-image: url(../images/intro-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	-moz-transition: background-position 0.5s ease-in-out;
@@ -12808,11 +12812,11 @@ tr {
 	margin-top: 3%;
 	text-align: center;
 	font-size: 24px;
-	position: absolute;
+	
 	z-index: 20;
-	font-family: fantasy;
+	font-family: cursive;
 	font-weight: bolder;
-	color: darkred;
+	color: whitesmoke;
 }
 
 @media (max-width: 1024px) {
@@ -12883,6 +12887,9 @@ footer {
 
 
 /*ribbon*/
+.ribbon {
+	visibility: hidden;
+}
 
 @media (max-width:767px) {
 	.ribbon {
@@ -12892,6 +12899,7 @@ footer {
 		top: 15%;
 		height: 3em;
 		width: 10em;
+		visibility:visible;
 		float: right;
 	right: 0;
 		z-index: 5;
