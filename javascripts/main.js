@@ -42,7 +42,7 @@
 	function scrollCallback() {
 		$("#nav-bar").on("activate.bs.scrollspy", function () {
 			var currentItem = $(".nav li.active > a").text();
-			console.log(currentItem);
+			
 			$(".ribbon-content").text("#" + currentItem);
 		})
 	}
@@ -54,7 +54,7 @@
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 //				console.log(target);
-				console.log(target.offset().top);
+//				console.log(target.offset().top);
 				if (target.length) {
 					$('html,body').animate({
 						scrollTop: target.offset().top - $('#nav-bar').height()
