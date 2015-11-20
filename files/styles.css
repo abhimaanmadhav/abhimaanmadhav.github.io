@@ -9544,14 +9544,15 @@
 	/* line 434, ../sass/partials/_layout.scss */
 	
 	section.about-us {
-		padding-bottom: 5%;
+		padding-bottom: 2%;
 		padding-top: 2%;
 		-moz-background-size: 100%;
 		-o-background-size: 100%;
 		-webkit-background-size: 100%;
 		background-size: 100%;
-		background-image: url(http://slodive.com/wp-content/uploads/2012/09/plain-backgrounds/light-blue-background.jpg);
-		background-repeat: no-repeat;
+		background-image: url(http://3.bp.blogspot.com/-M2b-nJgY-Mo/Ujg2f2g2iGI/AAAAAAAABTI/SHss8BPcjQ8/s1600/wooden-new-simple-plain-image-wallpaper.jpg);
+		background-repeat: repeat;
+		background-size: contain;
 		background-position: bottom center;
 		background-attachment: fixed;
 		z-index: 10;
@@ -9561,43 +9562,7 @@
 		transition: background-position 0.5s ease-in-out;
 	}
 	
-	@media (max-width: 1165px) {
-		/* line 434, ../sass/partials/_layout.scss */
-		section.about-us {
-			-moz-background-size: 125%;
-			-o-background-size: 125%;
-			-webkit-background-size: 125%;
-			background-size: 125%;
-		}
-	}
 	
-	@media (max-width: 992px) {
-		/* line 434, ../sass/partials/_layout.scss */
-		section.about-us {
-			-moz-background-size: 145%;
-			-o-background-size: 145%;
-			-webkit-background-size: 145%;
-			background-size: 145%;
-		}
-	}
-	
-	@media (max-width: 768px) {
-		/* line 434, ../sass/partials/_layout.scss */
-		section.about-us {
-			-moz-background-size: 155%;
-			-o-background-size: 155%;
-			-webkit-background-size: 155%;
-			background-size: 155%;
-		}
-	}
-	
-	@media (max-width: 767px) {
-		/* line 434, ../sass/partials/_layout.scss */
-		section.about-us {
-			padding-top: 0;
-			padding-bottom: 0;
-		}
-	}
 	/* line 461, ../sass/partials/_layout.scss */
 	
 	section.about-us.toTop {
@@ -10231,8 +10196,8 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
+		background-size: contain;
+		background-repeat: repeat;
 		background-position: top center;
 		/*	min-height: 750px;*/
 		overflow: visible;
@@ -10393,6 +10358,8 @@
 	.destination {
 		font-family: cursive;
 		font-size: 20px;
+		color: snow;
+		font-weight: 900;
 	}
 	
 	tr {
@@ -10446,7 +10413,11 @@
 	
 	.about {
 		background-size: cover;
-		z-index: -1;
+/*		z-index: -1;*/
+		max-width: 50%;
+	    
+    
+		
 	}
 	
 	.sticky {
@@ -10603,3 +10574,6 @@
 			/* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 		}
 	}
+#cont-about.container{
+	max-width: none;
+}
