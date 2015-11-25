@@ -10025,7 +10025,7 @@
 	
 	.nav.navbar-nav li.active > a,
 	.nav.navbar-nav li.active > a:focus {
-		color: #ffd9d9;
+		color: #ffd9d9 !important;
 		border-bottom: solid 1px #ffd9d9;
 		background-color: transparent;
 	}
