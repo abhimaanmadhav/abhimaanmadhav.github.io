@@ -5974,24 +5974,24 @@
 	
 	.navbar-default .navbar-brand:hover,
 	.navbar-default .navbar-brand:focus {
-		color: #5e5e5e;
+		color: #ffd9d9;
 		background-color: transparent;
 	}
 	/* line 410, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
 	
 	.navbar-default .navbar-text {
-		color: #777;
+		color: #ffd9d9;
 	}
 	/* line 415, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
 	
 	.navbar-default .navbar-nav > li > a {
-		color: #777;
+		color: #ffd9d9;
 	}
 	/* line 418, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
 	
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus {
-		color: #333;
+		color: #ffd9d9;
 		background-color: transparent;
 	}
 	/* line 425, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
@@ -10073,7 +10073,7 @@
 		border: none;
 		border-radius: 0;
 		font-family: "Gotham", sans-serif;
-		font-size: 18px;
+		font-size: 28px;
 		cursor: pointer;
 	}
 	/* line 109, ../sass/partials/_nav.scss */
