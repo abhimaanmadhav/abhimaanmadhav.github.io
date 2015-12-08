@@ -9504,7 +9504,7 @@
 	.instapics img,
 	.pre-wed-list li img {
 		max-width: 100%;
-		height: 250px;
+		max-height: 250px;
 		overflow: hidden;
 	}
 	/* line 408, ../sass/partials/_layout.scss */
